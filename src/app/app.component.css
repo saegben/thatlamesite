@@ -1,3 +1,70 @@
-p {
-  font-family: Lato;
+
+h1 {
+  font-family: 'Righteous';
+}
+
+.header {
+  text-align: center;
+}
+
+
+
+
+
+.color-test {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.ct-1 {
+  background-color: #272838;
+}
+.ct-2 {
+  background-color: #4056f4;
+}
+.ct-3 {
+  background-color: #470ff4;
+}
+.ct-4 {
+  background-color: #372772;
+}
+.ct-5 {
+  background-color: #355070;
+}
+.ct-6 {
+  background-color: #172a3a;
+}
+.ct-7 {
+  background-color: #2364aa;
+}
+.ct-8 {
+  background-color: #3da5d9;
+}
+.ct-9 {
+  background-color: #1a1c3b;
+}
+.ct-10 {
+  background-color: #180d7a;
+}
+
+
+.font-test {
+  font-size: 40px;
+}
+
+.ft-1 {
+  font-family: 'Flow Circular';
+}
+.ft-2 {
+  font-family: 'Passion One';
+}
+.ft-3 {
+  font-family: 'PT Mono';
+}
+.ft-4 {
+  font-family: 'Righteous';
+}
+.ft-5 {
+  font-family: 'Space Mono';
 }
