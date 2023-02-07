@@ -13,50 +13,59 @@
     <meta property="og:description" content="thatlameone">
   </head>
   <body>
+
     <header>
       <!-- url -->
       <!-- title -->
       <!-- nav -->
+      <div class="heading-row">
+        www.thatlamesite.com
+      </div>
+      <h1>thatlameone</h1>
+      
+      <button class="menu-btn" (click)="toggleMenu()">menu</button>
+      <div *ngIf="visible">
+        <p class="ft-1">----------------------------------------------------------</p>
+        pics - audio files - store - music videos
+        <p class="ft-1">----------------------------------------------------------</p>
+      </div>
+
+      
+      
     </header>
 
 
+    <div class="content">
+      <p>this is the main content</p>
 
-    <div class="header">
-      <h1>THATLAMEONE</h1>
-      link to socials: twitter - instagram - youtube - tiktok
-      <br />
-      platforms: soundcloud - spotify - applemusic - etc
-      <br />
-      menu: pics - audio files - store - music videos
-      <p class="ft-1">----------------------------------------------------------</p>
+      <!-- Color Tests -->
+      <div class="color-test ct-1">1</div>
+      <div class="color-test ct-2">2</div>
+      <div class="color-test ct-3">3</div>
+      <div class="color-test ct-4">4</div>
+      <div class="color-test ct-5">5</div>
+      <div class="color-test ct-6">6</div>
+      <div class="color-test ct-7">7</div>
+      <div class="color-test ct-8">8</div>
+      <div class="color-test ct-9">9</div>
+      <div class="color-test ct-10">10</div>
+
+      <!-- Font Tests -->
+      <p class="font-test">This is the regular font --- font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
+
+      <p class="font-test ft-1">1 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
+      <p class="font-test ft-2">2 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
+      <p class="font-test ft-3">3 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
+      <p class="font-test ft-4">4 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
+      <p class="font-test ft-5">5 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
     </div>
+    
 
 
-
-
-
-    <div class="color-test ct-1">1</div>
-    <div class="color-test ct-2">2</div>
-    <div class="color-test ct-3">3</div>
-    <div class="color-test ct-4">4</div>
-    <div class="color-test ct-5">5</div>
-    <div class="color-test ct-6">6</div>
-    <div class="color-test ct-7">7</div>
-    <div class="color-test ct-8">8</div>
-    <div class="color-test ct-9">9</div>
-    <div class="color-test ct-10">10</div>
-
-
-    <p class="font-test">This is the regular font --- font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-
-    <p class="font-test ft-1">1 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-    <p class="font-test ft-2">2 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-    <p class="font-test ft-3">3 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-    <p class="font-test ft-4">4 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-    <p class="font-test ft-5">5 font test thatlameone THATLAMEONE !!!???...,,,"""::;;</p>
-
-
-
+    <footer>
+      <p>link to socials: twitter - instagram - youtube - tiktok</p>
+      <p>platforms: soundcloud - spotify - applemusic - etc</p>
+    </footer>
 
   </body>
 </html>

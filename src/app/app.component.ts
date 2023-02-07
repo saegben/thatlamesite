@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
-export class AppComponent  { }
+export class AppComponent  {
+
+  visible: boolean = false;
+  toggleMenu() {
+    this.visible = this.visible? false : true;
+  }
+}

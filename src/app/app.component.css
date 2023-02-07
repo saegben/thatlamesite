@@ -1,18 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background-color: #7fb5cf;
+  height: 100%;
+}
+
+header, footer {
   background-color: #3da5d9;
-  height: 100vh;
-}
-
-h1 {
+  display: block;
   font-family: 'Righteous';
-}
-
-.header {
   text-align: center;
 }
 
 
 
+.menu-btn {
+  font-family: 'Righteous'; 
+  font-size: 25px;
+  background: none;
+  border: none;
+}
+
+.content {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
 
 
 .color-test {
