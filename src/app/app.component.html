@@ -18,21 +18,17 @@
       <!-- url -->
       <!-- title -->
       <!-- nav -->
-      <div class="heading-row">
-        www.thatlamesite.com
-      </div>
+
       <h1>thatlameone</h1>
       
       <button class="menu-btn" (click)="toggleMenu()">menu</button>
-      <div *ngIf="visible">
-        <p class="ft-1">----------------------------------------------------------</p>
-        pics - audio files - store - music videos
-        <p class="ft-1">----------------------------------------------------------</p>
-      </div>
-
-      
       
     </header>
+    <div class="menu" *ngIf="visible">
+      <p class="ft-1">----------------------------------------------------------</p>
+        pics - audio files - store - music videos
+        <p class="ft-1">----------------------------------------------------------</p>
+    </div>
 
 
     <div class="content">
@@ -63,8 +59,17 @@
 
 
     <footer>
-      <p>link to socials: twitter - instagram - youtube - tiktok</p>
-      <p>platforms: soundcloud - spotify - applemusic - etc</p>
+      <div class="info-block">
+        <p>twitter</p>
+        <p>instagram</p>
+        <p>youtube</p>
+        <p>tiktok</p>
+      </div>
+      <div class="info-block">
+        <p>soundcloud</p>
+        <p>spotify</p>
+        <p>applemusic</p>
+      </div>
     </footer>
 
   </body>
