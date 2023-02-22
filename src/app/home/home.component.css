@@ -1,0 +1,26 @@
+.container {
+  height: 500px;
+  width: 75%;
+  margin: 0 auto;
+  border: 1.5px solid black;
+}
+
+.container-header {
+  height: 20px;
+  border-bottom: 1.5px solid black;
+}
+
+.container-btn {
+  background-color: #d0cece;
+  border: #dbdbdb;
+  border-style: outset;
+  height: 20px;
+  width: 20px;
+}
+.container-btn:hover {
+  border-style: inset;
+}
+
+.container-title {
+  margin-left: 5px;
+}
