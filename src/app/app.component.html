@@ -13,73 +13,29 @@
     <meta property="og:description" content="thatlameone">
   </head>
   <body>
-
     <header>
       <h1>thatlameone</h1>
-      <button class="menu-btn" (click)="toggleMenu()">menu</button>
+      <div class="menu-col">
+        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-camera-32.png" class="menu-icon">
+        <button class="btn">photos</button>
+      </div>
+      <div class="menu-col">
+        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-audio-file-32.png" class="menu-icon">
+        <button class="btn">audios</button>
+      </div>
+      <div class="menu-col">
+        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-video-file-32.png" class="menu-icon">
+        <button class="btn">videos</button>
+      </div>
+      <div class="menu-col">
+        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-shop-32.png" class="menu-icon">
+        <button class="btn">shop</button>
+      </div>
     </header>
-
-    <div class="menu" *ngIf="visible">
-
-      <label class="icon-label">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-camera-32.png" class="icon icon-camera">
-        <h4>photos</h4>
-      </label>
-
-      <label class="icon-label">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-audio-file-32.png" class="icon icon-audio">
-        <h4>audios</h4>
-      </label>
-
-      <label class="icon-label">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-video-file-32.png" class="icon icon-video">
-        <h4>videos</h4>
-      </label>
-
-      <label class="icon-label">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-shop-32.png" class="icon icon-shop">
-        <h4>shop</h4>
-      </label>
-      
-
-
-      <!-- <p class="ft-1">----------------------------------------------------------</p>
-      <p class="ft-1">----------------------------------------------------------</p> -->
-    </div>
-
-
     <div class="content">
-      <p>this is the main content</p>
-
-
-      <!-- Font Tests -->
-      <p class="font-test">This is the regular font --- font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
-
-      <p class="font-test ft-1">1 font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
-      <p class="font-test ft-2">2 font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
-      <p class="font-test ft-3">3 font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
-      <p class="font-test ft-4">4 font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
-      <p class="font-test ft-5">5 font-test thatlameone THATLAMEONE !!??..,,""::;;</p>
 
     </div>
-    
-
-    <footer>
-      <!-- Socials -->
-      <div class="info-block">
-        <p>twitter</p>
-        <p>instagram</p>
-        <p>youtube</p>
-        <p>tiktok</p>
-      </div>
-      <!-- Platforms -->
-      <div class="info-block">
-        <p>soundcloud</p>
-        <p>spotify</p>
-        <p>applemusic</p>
-      </div>
-    </footer>
-
+  
   </body>
 </html>
 
