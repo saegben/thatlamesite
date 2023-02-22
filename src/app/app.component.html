@@ -14,28 +14,31 @@
   </head>
   <body>
     <header>
-      <h1>thatlameone</h1>
-      <div class="menu-col">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-camera-32.png" class="menu-icon">
-        <button class="btn">photos</button>
+      <div class="header-row">
+        <div class="site-title" routerLink="/home">thatlameone</div>
       </div>
-      <div class="menu-col">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-audio-file-32.png" class="menu-icon">
-        <button class="btn">audios</button>
-      </div>
-      <div class="menu-col">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-video-file-32.png" class="menu-icon">
-        <button class="btn">videos</button>
-      </div>
-      <div class="menu-col">
-        <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-shop-32.png" class="menu-icon">
-        <button class="btn">shop</button>
+      <div class="header-row">
+        <div class="menu-col">
+          <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-camera-32.png" class="menu-icon">
+          <button class="btn" routerLink="/photos">photos</button>
+        </div>
+        <div class="menu-col">
+          <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-audio-file-32.png" class="menu-icon">
+          <button class="btn">audios</button>
+        </div>
+        <div class="menu-col">
+          <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-video-file-32.png" class="menu-icon">
+          <button class="btn">videos</button>
+        </div>
+        <div class="menu-col">
+          <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-shop-32.png" class="menu-icon">
+          <button class="btn">shop</button>
+        </div>
       </div>
     </header>
     <div class="content">
-
+      <router-outlet></router-outlet>
     </div>
-  
   </body>
 </html>
 

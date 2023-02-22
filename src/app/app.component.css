@@ -10,14 +10,21 @@ body {
 
 header {
   height: 150px;
-  
-  display: block;
-
   text-align: center;
+  padding: 20px;
+}
+
+.header-row {
+  padding: 20px;
+}
+
+.site-title {
   font-family: 'Righteous';
   font-style: italic;
-  color: black;
+  font-size: 25px;
+  user-select: none;
 }
+
 
 .menu-col {
   display: inline-block;
