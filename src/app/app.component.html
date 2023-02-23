@@ -20,25 +20,35 @@
       <div class="header-row">
         <div class="menu-col">
           <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-camera-32.png" class="menu-icon">
-          <button class="btn" routerLink="/photos">photos</button>
+          <button class="btn menu-btn" [routerLink]="['/photos']">photos</button>
         </div>
         <div class="menu-col">
           <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-audio-file-32.png" class="menu-icon">
-          <button class="btn">audios</button>
+          <button class="btn menu-btn" [routerLink]="['/audios']">audios</button>
         </div>
         <div class="menu-col">
           <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-video-file-32.png" class="menu-icon">
-          <button class="btn">videos</button>
+          <button class="btn menu-btn" [routerLink]="['/videos']">videos</button>
         </div>
         <div class="menu-col">
           <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-shop-32.png" class="menu-icon">
-          <button class="btn">shop</button>
+          <button class="btn menu-btn" [routerLink]="['/shop']">shop</button>
         </div>
       </div>
     </header>
-    <div class="content">
-      <router-outlet></router-outlet>
+    <div class="container">
+      <div class="container-header">
+        <button class="btn container-btn" (click)="backClicked()">﹤</button>
+        <button class=" btn container-btn" (click)="forwardClicked()">﹥</button>
+        <span class="home-btn">
+          <button class="btn container-btn" routerLink="/home">
+            <img src="https://stackblitz.com/files/angular-ivy-d7zkmd/github/saegben/thatlamesite/main/src/app/assets/icons8-home-32.png" class="home-icon">
+          </button>
+        </span>
+      </div>
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
     </div>
   </body>
 </html>
-

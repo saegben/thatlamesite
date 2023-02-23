@@ -3,8 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { AudiosComponent } from './audios/audios.component';
 import { HomeComponent } from './home/home.component';
 import { PhotosComponent } from './photos/photos.component';
+import { ShopComponent } from './shop/shop.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   imports: [
@@ -13,12 +16,11 @@ import { PhotosComponent } from './photos/photos.component';
       { path: 'home', component: HomeComponent },
 
       { path: 'photos', component: PhotosComponent },
-      /* UPDATE W COMPONENTS */
-      { path: 'audios', component: HomeComponent },
-      { path: 'videos', component: HomeComponent },
-      { path: 'shop', component: HomeComponent },
+      { path: 'audios', component: AudiosComponent },
+      { path: 'videos', component: VideosComponent },
+      { path: 'shop', component: ShopComponent },
 
-      { path: '**', redirectTo: 'home', pathMatch: 'full' },
+      { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ])
   ],
   declarations: [
